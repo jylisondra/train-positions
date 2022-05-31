@@ -6,7 +6,7 @@ import styles from './TrainsContainer.module.css';
 export const TrainsContainer = () => {
   const [trainData, setTrainData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
-  const [currentTime, setCurrentTime] = useState('');
+  const [currentTime, setCurrentTime] = useState('Fetching Data');
 
   const { direction, lineColor, serviceType } = useAppContext();
 
