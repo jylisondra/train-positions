@@ -6,6 +6,7 @@ import styles from './TrainsContainer.module.css';
 export const TrainsContainer = () => {
   const [trainData, setTrainData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
+  const [currentTime, setCurrentTime] = useState('');
 
   const { direction, lineColor, serviceType } = useAppContext();
 
@@ -58,7 +59,13 @@ export const TrainsContainer = () => {
   };
 
   useEffect(() => {
-    getTrainData();
+    const interval = setInterval(() => {
+      getTrainData();
+      const timestamp = new Date();
+      setCurrentTime(timestamp.toUTCString());
+    }, 10000);
+
+    return () => clearInterval(interval); //unmount to prevent memory leaks
   }, []);
 
   useEffect(() => {
@@ -131,6 +138,7 @@ export const TrainsContainer = () => {
           );
         })}
       </table>
+      <div>Last updated: {currentTime}</div>
     </div>
   );
 };
