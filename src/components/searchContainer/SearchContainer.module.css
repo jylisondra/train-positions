@@ -1,0 +1,58 @@
+.search_container {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  background-image: url('https://images.unsplash.com/photo-1551692071-fd6c1830d282?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.blur {
+  backdrop-filter: blur(8px);
+  width: 100%;
+  height: 400px;
+}
+
+.search_form {
+  margin-top: 24rem;
+  color: #e2d8d8;
+  background: #883b3b;
+  border-radius: 5px;
+  height: 180px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  position: absolute;
+  z-index: 10;
+  font-size: 1.6rem;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-self: center;
+  padding: 25px;
+}
+
+.btn_clear {
+  margin-top: 1rem;
+  grid-column-start: 2;
+  font: inherit;
+  font-size: 1.2rem;
+  height: 48px;
+  width: 320px;
+  border: none;
+  border-radius: 5px;
+  background: #5c1f1f;
+  color: #e2d8d8;
+}
+
+.btn_clear:hover {
+  cursor: pointer;
+}
+.search_form select {
+  font: inherit;
+  font-size: 1.2rem;
+  display: flex;
+  width: 100%;
+  height: 35px;
+  margin: 0.2rem;
+}

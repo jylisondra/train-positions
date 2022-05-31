@@ -1,0 +1,82 @@
+.train_container {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.train_table {
+  width: 70%;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-bottom: 1.8rem;
+}
+
+.train_list_header {
+  background: #4b4955;
+  height: 45px;
+  color: #dfdada;
+  width: 1000px;
+}
+.train_list_item {
+  background: #f4f4f4;
+}
+
+.train_list_item:nth-child(odd) {
+  background: #eceaea;
+}
+
+.train_table th,
+.train_table td {
+  padding: 18px 15px;
+}
+.line_color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-radius: 5px;
+  color: #f3f1f1;
+}
+.no_color {
+  color: #403030;
+  border: 2px solid #9e9e9e;
+}
+
+.red_line {
+  background: #db4646;
+}
+
+.green_line {
+  background: #30b154;
+}
+
+.blue_line {
+  background: #3e3da3;
+}
+
+.silver_line {
+  color: #757681;
+  background: #c5cbda;
+}
+
+.yellow_line {
+  color: #5a5c1e;
+  background: #e8eb5c;
+}
+
+.orange_line {
+  background: #da8403;
+}
+.unknown {
+  color: #d88c46;
+}
+
+.nonpassenger {
+  color: #b04444;
+}

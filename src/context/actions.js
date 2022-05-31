@@ -1,0 +1,2 @@
+export const HANDLE_SEARCH = 'HANDLE_SEARCH';
+export const CLEAR_FILTER = 'CLEAR_FILTER';
