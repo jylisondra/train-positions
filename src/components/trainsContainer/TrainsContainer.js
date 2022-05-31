@@ -74,7 +74,7 @@ export const TrainsContainer = () => {
     result = filterServiceType(result);
     result = filterDirection(result);
     setFilteredData(result);
-  }, [serviceType, lineColor, direction]);
+  }, [trainData, serviceType, lineColor, direction]);
 
   return (
     <div className={styles.train_container}>
