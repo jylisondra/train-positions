@@ -1,6 +1,6 @@
 # WMTA Train Visualization
 
-An application used to display and filter various train data retrieved from the WMTA open API
+A React application used to display and filter various train data retrieved from the WMTA open API
 
 A live demo of the app can be found [here](https://wmta-trains.netlify.app/)
 
