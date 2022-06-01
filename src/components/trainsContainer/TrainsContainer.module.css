@@ -49,29 +49,29 @@
 }
 
 .red_line {
-  background: #db4646;
+  background: #bd3434;
 }
 
 .green_line {
-  background: #30b154;
+  background: #1c9c41;
 }
 
 .blue_line {
-  background: #3e3da3;
+  background: #216dc4;
 }
 
 .silver_line {
-  color: #757681;
+  color: #62636b;
   background: #c5cbda;
 }
 
 .yellow_line {
-  color: #5a5c1e;
-  background: #e8eb5c;
+  color: #76792c;
+  background: #e7eb16;
 }
 
 .orange_line {
-  background: #da8403;
+  background: #e6951c;
 }
 .unknown {
   color: #d88c46;
